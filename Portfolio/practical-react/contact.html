@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact - Myst's Portfolio</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="./About">About</a></li>
+      <li><a href="./Blog">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+      <li id="signup"><a href="./Register">Register</a></li>
+      <li id="login"><a href="./Login">Login</a></li>
+    </ul>
+    <div class="content">
+      <div class="headers">
+        <h2>Want to talk?</h2>
+        <h4>Fill the form down below</h4>
+        <div class="email-form">
+          <form action="send" method="post">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <br>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <br>
+            <textarea name="message" rows="8" cols="80" placeholder="Message" required></textarea>
+            <br>
+            <input type="submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
